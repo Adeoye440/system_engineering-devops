@@ -1,0 +1,4 @@
+#!/bin/bash
+# Set permissions for hello: owner=no, group=no, others=all
+chmod 007 hello
+

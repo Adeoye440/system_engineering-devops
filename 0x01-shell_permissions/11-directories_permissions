@@ -1,4 +1,2 @@
 #!/bin/bash
-# Add execute permission to all directories in current directory for owner, group, and others
 chmod a+x */
-

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# A Bash script that loops forever and prints "OK" when receiving SIGTERM
+trap 'echo "OK"' TERM
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+done
